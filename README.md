@@ -6,7 +6,7 @@ Thanks to [Harshit Joshi on Kaggle](https://www.kaggle.com/hj5992/restaurantrevi
 ## Requirements
 
 - Check [requirements.txt](https://github.com/jacenyang/restaurant-reviews-uts/blob/master/requirements.txt) and make sure those packages are installed.
-- Download stopwords from ntlk by running the script below.
+- Download stopwords from ntlk by running this script.
 ```sh
 import nltk
 nltk.download('stopwords')

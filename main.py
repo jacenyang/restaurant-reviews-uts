@@ -48,18 +48,21 @@ from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(y_test, y_pred)
 print("Confusion Matrix:\n", cm)
 
-# Accuracy, Precision and Recall
+# Accuracy, Precision, Recall and F1
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import precision_score
 from sklearn.metrics import recall_score
+from sklearn.metrics import f1_score
 
 score1 = accuracy_score(y_test, y_pred)
 score2 = precision_score(y_test, y_pred)
 score3 = recall_score(y_test, y_pred)
+score4 = f1_score(y_test, y_pred)
 print("\n")
-print("Accuracy is ", round(score1 * 100, 2), "%")
-print("Precision is ", round(score2, 2))
-print("Recall is ", round(score3, 2))
+print(f"Accuracy score is {round(score1 * 100, 2)}%")
+print(f"Precision score is {round(score2, 2)}")
+print(f"Recall score is {round(score3, 2)}")
+print(f"F1 score is {round(score4, 2)}")
 
 # # Bernoulli NB
 #
@@ -78,18 +81,21 @@ print("Recall is ", round(score3, 2))
 # cm = confusion_matrix(y_test, y_pred)
 # print("Confusion Matrix:\n", cm)
 #
-# # Accuracy, Precision and Recall
+# # Accuracy, Precision, Recall and F1
 # from sklearn.metrics import accuracy_score
 # from sklearn.metrics import precision_score
 # from sklearn.metrics import recall_score
+# from sklearn.metrics import f1_score
 #
 # score1 = accuracy_score(y_test, y_pred)
 # score2 = precision_score(y_test, y_pred)
 # score3 = recall_score(y_test, y_pred)
+# score4 = f1_score(y_test, y_pred)
 # print("\n")
-# print("Accuracy is ", round(score1 * 100, 2), "%")
-# print("Precision is ", round(score2, 2))
-# print("Recall is ", round(score3, 2))
+# print(f"Accuracy score is {round(score1 * 100, 2)}%")
+# print(f"Precision score is {round(score2, 2)}")
+# print(f"Recall score is {round(score3, 2)}")
+# print(f"F1 score is {round(score4, 2)}")
 
 # # Logistic Regression
 #
@@ -108,15 +114,18 @@ print("Recall is ", round(score3, 2))
 # cm = confusion_matrix(y_test, y_pred)
 # print("Confusion Matrix:\n", cm)
 #
-# # Accuracy, Precision and Recall
+# # Accuracy, Precision, Recall and F1
 # from sklearn.metrics import accuracy_score
 # from sklearn.metrics import precision_score
 # from sklearn.metrics import recall_score
+# from sklearn.metrics import f1_score
 #
 # score1 = accuracy_score(y_test, y_pred)
 # score2 = precision_score(y_test, y_pred)
 # score3 = recall_score(y_test, y_pred)
+# score4 = f1_score(y_test, y_pred)
 # print("\n")
-# print("Accuracy is ", round(score1 * 100, 2), "%")
-# print("Precision is ", round(score2, 2))
-# print("Recall is ", round(score3, 2))
+# print(f"Accuracy score is {round(score1 * 100, 2)}%")
+# print(f"Precision score is {round(score2, 2)}")
+# print(f"Recall score is {round(score3, 2)}")
+# print(f"F1 score is {round(score4, 2)}")
