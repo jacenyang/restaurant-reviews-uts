@@ -16,19 +16,22 @@ nltk.download('stopwords')
 
 - Multinomial Naive Bayes
 ```sh
-Accuracy of prediction is 77.67%.
-Precision of prediction is 0.78.
-Recall of prediction is 0.77.
+Accuracy score is 77.67%
+Precision score is 0.78
+Recall score is 0.77
+F1 score is 0.77
 ```
 - Bernoulli Naive Bayes
 ```sh
-Accuracy of prediction is 77.0%.
-Precision of prediction is 0.76.
-Recall of prediction is 0.78.
+Accuracy score is 77.0%
+Precision score is 0.76
+Recall score is 0.78
+F1 score is 0.77
 ```
 - Logistic Regression
 ```sh
-Accuracy of prediction is 76.67%.
-Precision of prediction is 0.8.
-Recall of prediction is 0.71.
+Accuracy score is 76.67%
+Precision score is 0.8
+Recall score is 0.71
+F1 score is 0.75
 ```
