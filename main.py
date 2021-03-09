@@ -31,7 +31,7 @@ from sklearn.model_selection import train_test_split
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
 
-# Multinomial NB
+# Multinomial Naive Bayes
 
 # Fitting Naive Bayes to the Training set
 from sklearn.naive_bayes import MultinomialNB
@@ -64,7 +64,7 @@ print(f"Precision score is {round(score2, 2)}")
 print(f"Recall score is {round(score3, 2)}")
 print(f"F1 score is {round(score4, 2)}")
 
-# # Bernoulli NB
+# # Bernoulli Naive Bayes
 #
 # # Fitting Naive Bayes to the Training set
 # from sklearn.naive_bayes import BernoulliNB
